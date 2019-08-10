@@ -17,9 +17,13 @@ body{
 	max-width: 600px;
 }
 
-#stripe {
+#stripe{
 	background: white;
 	height: 30px;
 	text-align: center;
 	color: black;
+}
+
+.selected{
+	background: blue;
 }
