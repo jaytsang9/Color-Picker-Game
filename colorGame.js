@@ -36,3 +36,26 @@ function pickColor(){
 	var random = Math.floor(Math.random() * colors.length);
 	return colors[random];
 };
+
+function generateRandomColors(num){
+	// make an array
+	arr = [];
+	// add num random colors to arr 
+	for(var i = 0; i < num; i++){
+		//get random color and push into array
+		arr.push(randomColor());
+	}
+	// return that array
+	return arr;
+}
+
+function randomColor(){
+	//pick a "red" form 0-255
+	var red = Math.floor(Math.random() * 256);
+	//pick a "green" from 0-255
+	var green = Math.floor(Math.random() * 256);
+	// pick a "blue" from 0-255
+	var blue = Math.floor(Math.random() * 256);
+
+	return "rgb(" + red + ", " + green + ", " + blue + ")";
+}
