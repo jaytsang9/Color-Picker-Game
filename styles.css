@@ -1,0 +1,18 @@
+body{
+	background-color: #232323;
+	color:white;
+}
+
+.square{
+	width:30%;
+	background:purple;
+	border-radius:10%;
+	padding-bottom: 30%;
+	float:left;
+	margin: 1.66%;
+}
+
+#containter{
+	margin: 0 auto;
+	max-width: 600px;
+}
